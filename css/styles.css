@@ -1,0 +1,30 @@
+body{
+  background-color: #02111b;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+#miniLogo{
+  z-index: 99;
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  background-color: transparent;
+}
+
+#heroText{
+  position: relative;
+  height: 100vh;
+  color: white;
+  background-color: #02111b;
+}
+
+#heroImage{
+  position: relative;
+  height: 100vh;
+  float: right;
+  position: relative;
+  background-color: #ffffff;
+}
