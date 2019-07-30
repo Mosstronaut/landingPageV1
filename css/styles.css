@@ -1,30 +1,117 @@
-body{
-  background-color: #02111b;
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
 }
 
-h1{
-  font-size: 2.5em;
-}
+/*------desktop style------*/
+  #headNav{
+    width: 100%;
+    height: 10vh;
+    top: 0px;
+    background-color: #201f23;
+    z-index: 20;
+    position: fixed;
+    transition: 0.4s;
+  }
 
-#miniLogo{
-  z-index: 99;
-  position: absolute;
-  width: 160px;
-  height: 50px;
-  background-color: transparent;
-}
+  #headLogo{
+    height: 80%;
+    left: 2%;
+  }
 
-#heroText{
-  position: relative;
-  height: 100vh;
-  color: white;
-  background-color: #02111b;
-}
+  #headLogoMin{
+    display: none;
+  }
 
-#heroImage{
-  position: relative;
-  height: 100vh;
-  float: right;
-  position: relative;
-  background-color: #ffffff;
+  #socialNav{
+    height: 30%;
+    left: 10%;
+    top: 25%;
+  }
+
+  #heroDiv{
+    height: 100vh;
+    max-width: 100%;
+  }
+
+  #heroLeft{
+    background-color: #201f23;
+  }
+
+  #heroRight{
+    background-color: #fff;
+  }
+
+  #featDiv{
+    height: 30vh;
+    max-width: 100%;
+  }
+
+  #featOne{
+    background-color: #ff3b0c
+  }
+
+  #featTwo{
+    background-color: #0b3954
+  }
+
+  .logoImg{
+    margin-left: 2%;
+    margin-top: 2%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  ul.socNav{
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li.socIcon{
+    height: 100%;
+    float: left;
+    padding-left: 10%;
+
+  }
+
+  .socImg{
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .featureDiv{
+    height: 100%;
+  }
+
+  .scrolledNav{
+    background-color: transparent !important;
+    height: 8vh !important;
+  }
+  /*---------------End desktop style---------------------------*/
+
+  /*-------------------mobile style---------------------------*/
+@media screen and (max-width: 750px) {
+  #headNav{
+    width: 9vw;
+    height: 10vh;
+    margin-top: 3%;
+    background-color: #201f23;
+    border-radius: 0px 10px 10px 0px;
+    position: fixed;
+  }
+
+  #headLogo, #socialNav, #navSpacer{
+    display: none;
+  }
+
+  #headLogoMin{
+    height: 90%;
+    padding: 2%;
+    left: 25%;
+    display: block;
+    position: relative;
+  }
 }
+  /*-------------------End mobile style---------------------------*/
