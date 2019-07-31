@@ -9,6 +9,9 @@
     height: 10vh;
     top: 0px;
     background-color: #201f23;
+    /*-webkit-box-shadow: 5px 5px 28px #111;
+	  -moz-box-shadow: 5px 5px 28px #111;
+    box-shadow: 5px 5px 28px #111;*/
     z-index: 20;
     position: fixed;
     transition: 0.4s;
@@ -31,7 +34,10 @@
 
   #heroDiv{
     height: 100vh;
-    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    left: 0;
   }
 
   #heroLeft{
@@ -39,20 +45,22 @@
   }
 
   #heroRight{
-    background-color: #fff;
+    background-color: #201f23;
   }
 
   #featDiv{
     height: 30vh;
     max-width: 100%;
+    padding: 0;
+    left: 0;
   }
 
   #featOne{
-    background-color: #ff3b0c
+    background-color: #ff3b0c;
   }
 
   #featTwo{
-    background-color: #0b3954
+    background-color: #0b3954;
   }
 
   .logoImg{
@@ -88,7 +96,18 @@
   .scrolledNav{
     background-color: transparent !important;
     height: 8vh !important;
+    /*-webkit-box-shadow: none !important;
+	  -moz-box-shadow: none !important;
+	   box-shadow: none !important;*/
   }
+
+  .heroText{
+    margin-top: 50%;
+    margin-left: 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+  }
+
   /*---------------End desktop style---------------------------*/
 
   /*-------------------mobile style---------------------------*/
