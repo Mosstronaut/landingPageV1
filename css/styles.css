@@ -3,6 +3,10 @@
   zoom: 1.0 ;
 }
 
+body{
+  background-color: #201f23;
+}
+
 /*------desktop style------*/
   #headNav{
     width: 100%;
@@ -32,37 +36,6 @@
     top: 25%;
   }
 
-  #heroDiv{
-    height: 100vh;
-    width: 100%;
-    padding: 0;
-    overflow-x: hidden;
-    left: 0;
-  }
-
-  #heroLeft{
-    background-color: #201f23;
-  }
-
-  #heroRight{
-    background-color: #201f23;
-  }
-
-  #featDiv{
-    height: 50vh;
-    max-width: 100%;
-    padding: 0;
-    left: 0;
-  }
-
-  #featOne{
-    background-color: #201f23;
-  }
-
-  #featTwo{
-    background-color: #201f23;
-  }
-
   .logoImg{
     margin-left: 2%;
     margin-top: 2%;
@@ -89,17 +62,6 @@
     object-fit: contain;
   }
 
-  .featureDiv{
-    height: 100%;
-  }
-
-  .featureContain{
-    height: 100%;
-    width: 95%;
-    background-color: #fff;
-    margin-left: 2.5%;
-  }
-
   .scrolledNav{
     background-color: transparent !important;
     height: 8vh !important;
@@ -108,20 +70,128 @@
 	   box-shadow: none !important;*/
   }
 
+  #heroDiv{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    left: 0;
+  }
+
+  #heroLeft{
+    background-color: #201f23;
+  }
+
+  #heroRight{
+    background-color: #201f23;
+  }
+
+  #heroImage{
+    position: relative;
+    height: 100%;
+    padding: 10% 0;
+    margin: auto;
+  }
+
+  .heroImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .heroText{
-    margin-top: 45%;
-    margin-right: 5%;
+      margin-top: 45%;
+      margin-right: 5%;
+      font-family: 'Chakra Petch', sans-serif;
+      text-align: right;
+      color: #ff3b0c;
+    }
+
+  .subHero{
+      margin-top: 5%;
+      margin-right: 5%;
+      font-family: 'Montserrat', sans-serif;
+      text-align: right;
+      color: #fff;
+    }
+
+  #ctaDiv{
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .ctaSep{
+    height: 30vh;
+    max-width: 100%;
+    background-color: #201f23;
+  }
+
+  .quoteContainer{
+    height: 30%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff3b0c;
+    border-radius: 50px;
+    padding: 3%;
+  }
+
+  .mainQuote{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+  }
+
+  .quoted{
     font-family: 'Chakra Petch', sans-serif;
+    color: #fff;
     text-align: right;
+    margin-right: 10%;
+  }
+
+  #featDiv{
+    height: 70vh;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .featureDiv{
+    height: 100%;
+  }
+
+  .featureContain{
+    height: 100%;
+    width: 95%;
+    padding: 5%;
+    background-color: #fff;
+    margin-left: 2.5%;
+  }
+
+  .featureTextL{
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .featImgL, .featImgR{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .featureTextR{
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
+  .featureTitle{
+    font-family: 'Chakra Petch', sans-serif;
     color: #ff3b0c;
   }
 
-  .subHero{
-    margin-top: 5%;
-    margin-right: 5%;
+  .featureDesc{
     font-family: 'Montserrat', sans-serif;
-    text-align: right;
-    color: #fff;
+    color: #201f23;
+    text-align: justify;
   }
 
   /*---------------End desktop style---------------------------*/
