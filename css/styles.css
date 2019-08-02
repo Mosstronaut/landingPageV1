@@ -54,7 +54,6 @@ body{
     height: 100%;
     float: left;
     padding-left: 10%;
-
   }
 
   .socImg{
@@ -89,7 +88,7 @@ body{
   #heroImage{
     position: relative;
     height: 100%;
-    padding: 10% 0;
+    padding-top: 25%;
     margin: auto;
   }
 
@@ -121,14 +120,14 @@ body{
   }
 
   .ctaSep{
-    height: 30vh;
+    height: 25vh;
     max-width: 100%;
     background-color: #201f23;
   }
 
   .quoteContainer{
     height: 30%;
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     background-color: #ff3b0c;
@@ -149,38 +148,53 @@ body{
   }
 
   #featDiv{
-    height: 70vh;
+    height: 100vh;
     max-width: 100%;
     padding: 0;
   }
 
   .featureDiv{
-    height: 100%;
+    height: 50%;
   }
 
   .featureContain{
-    height: 100%;
+    height: 98%;
     width: 95%;
-    padding: 5%;
+    padding: 3%;
     background-color: #fff;
     margin-left: 2.5%;
   }
 
   .featureTextL{
-    margin-left: 5%;
-    margin-top: 5%;
+    left: 5%;
+    margin-top: 3%;
+    text-align: left;
+  }
+
+  .featureImgL{
+    height: 80%;
+    width: auto;
+    margin: auto;
+    padding-left: 20%
+  }
+
+  .featureImgR{
+    height: 80%;
+    width: auto;
+    margin: auto;
+    left: 5%;
   }
 
   .featImgL, .featImgR{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    display: inline-block;
+    height: 100%;
+    object-fit: contain !important;
   }
 
   .featureTextR{
-    margin-right: 5%;
-    margin-top: 5%;
+    right: 5%;
+    margin:auto;
+    padding-left: 10%
   }
 
   .featureTitle{
@@ -192,6 +206,40 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #201f23;
     text-align: justify;
+  }
+
+  #footerDiv{
+    height: 100vh;
+    width: 100%;
+  }
+
+  .footerImg{
+    margin: auto;
+    padding-top: 8%;
+    padding-left: 50%;
+  }
+
+  ul.companyLinks{
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 47%;
+  }
+
+  li.linkTitle{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 25px;
+    color: #ff3b0c;
+    height: 100%;
+    padding: 2%;
+  }
+
+  #footLinks li a{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding: .5%;
   }
 
   /*---------------End desktop style---------------------------*/
