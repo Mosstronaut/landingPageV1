@@ -10,7 +10,7 @@ body{
 /*------desktop style------*/
   #headNav{
     width: 100%;
-    height: 9vh;
+    height: 60px;
     top: 0px;
     background-color: #fff;
     /*-webkit-box-shadow: 5px 5px 28px #111;
@@ -70,9 +70,9 @@ body{
   }
 
   #heroDiv{
-    height: 100vh;
+    min-height: 670px;
     width: 100%;
-    padding: 0;
+    padding-top: 7%;
     overflow-x: hidden;
     left: 0;
   }
@@ -87,8 +87,8 @@ body{
 
   #heroImage{
     position: relative;
-    height: 100%;
-    padding-top: 25%;
+    width: 100%;
+    margin-top: 25%;
     margin: auto;
   }
 
@@ -99,7 +99,7 @@ body{
   }
 
   .heroText{
-      margin-top: 45%;
+      margin-top: 30%;
       margin-right: 5%;
       font-family: 'Chakra Petch', sans-serif;
       text-align: right;
@@ -116,13 +116,14 @@ body{
 
   #ctaDiv{
     margin-top: 4%;
+    min-height: 400px;
     margin-bottom: 4%;
   }
 
   .ctaSep{
-    height: 25vh;
     max-width: 100%;
     background-color: #201f23;
+    padding-bottom: 5%;
   }
 
   .quoteContainer{
@@ -147,54 +148,70 @@ body{
     margin-right: 10%;
   }
 
+  .ctaButt{
+    margin-left: 40%;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    width: 22%;
+    text-align: center;
+  }
+
+  .callButton{
+    color: #ff3b0c;
+    border-radius: 30px !important;
+    background-color: #fff !important;
+  }
+
   #featDiv{
-    height: 100vh;
+    height: 900px;
     max-width: 100%;
-    padding: 0;
+    padding: 3% 0 0 0;
   }
 
   .featureDiv{
-    height: 50%;
+    height: 45%;
+    width:95%;
+    margin-bottom: 4%;
   }
 
   .featureContain{
-    height: 98%;
-    width: 95%;
-    padding: 3%;
+    width: 100%;
+    height: 100%;
+    padding: 0 5% 0 5%;
     background-color: #fff;
     margin-left: 2.5%;
+    display: inline-flex;
   }
 
   .featureTextL{
     left: 5%;
-    margin-top: 3%;
     text-align: left;
+    margin: auto;
   }
 
   .featureImgL{
-    height: 80%;
-    width: auto;
+    width: 40%;
     margin: auto;
-    padding-left: 20%
+    padding-left: 12.5%
   }
 
   .featureImgR{
-    height: 80%;
-    width: auto;
+    height: 40%;
+    width: 40%;
     margin: auto;
-    left: 5%;
-  }
-
-  .featImgL, .featImgR{
-    display: inline-block;
-    height: 100%;
-    object-fit: contain !important;
+    right: 7%;
   }
 
   .featureTextR{
     right: 5%;
     margin:auto;
     padding-left: 10%
+  }
+
+  .featImgR .featImgL{
+    max-height: 40%;
+    max-width: 40%;
+    object-fit: contain;
   }
 
   .featureTitle{
@@ -209,7 +226,7 @@ body{
   }
 
   #footerDiv{
-    height: 100vh;
+    min-height: 650px;
     width: 100%;
   }
 
@@ -223,7 +240,7 @@ body{
     height: 100%;
     list-style-type: none;
     margin: 0;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 47%;
   }
 
@@ -259,6 +276,10 @@ body{
     display: none;
   }
 
+  .socNav{
+    display: none;
+  }
+
   #headLogoMin{
     height: 90%;
     padding: 2%;
@@ -266,5 +287,165 @@ body{
     display: block;
     position: relative;
   }
+
+
+  #heroDiv{
+      height: 60vh;
+      display: inline-flex;
+  }
+
+  #heroLeft{
+      width: 70%;
+      z-index: 10;
+      background-color: transparent;
+  }
+
+  #heroRight{
+      position: absolute;
+      width: 50%;
+      top: 7%;
+      left: 40%;
+  }
+
+  .heroText{
+      margin-top: 30%;
+      margin-right: 5%;
+      font-family: 'Chakra Petch', sans-serif;
+      text-align: right;
+      color: #ff3b0c;
+  }
+
+  .heroText h2{
+    font-size: 16pt;
+  }
+
+  .heroText h6{
+    font-size: 10pt;
+  }
+
+  #heroImage{
+    display:block;
+    width: 100%;
+    left: 1%;
+  }
+
+  .heroImg{
+    object-fit: contain;
+    width: 140%;
+  }
+
+  .subHero{
+      margin-top: 5%;
+      margin-right: 5%;
+      font-family: 'Montserrat', sans-serif;
+      text-align: right;
+      color: #fff;
+    }
+
+  #ctaDiv{
+    margin-top: 0%;
+    margin-bottom: 4%;
+  }
+
+  .ctaSep{
+    height: 25vh;
+    max-width: 100%;
+    background-color: #201f23;
+  }
+
+  .ctaButt{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    width: 50%;
+    text-align: center;
+  }
+
+  .callButton{
+    color: #ff3b0c;
+    border-radius: 30px !important;
+    background-color: #fff !important;
+  }
+
+  .quoteContainer{
+    height: 30%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff3b0c;
+    border-radius: 0px;
+    padding: 3%;
+  }
+
+  .quoteContainer h4{
+    font-size: 14px;
+  }
+
+  #featDiv{
+    height: 150vh;
+    max-width: 100%;
+    padding: 25% 0 0 0;
+  }
+
+  .featureDiv{
+    height: 50%;
+    width:95%;
+    margin-left: 2.5%;
+    margin-bottom: 4%;
+    display: inline-flex;
+  }
+
+  .featureContain{
+    height: 98%;
+    width: 95%;
+    padding: 0 5% 0 5%;
+    background-color: #fff;
+    margin-left: 2.5%;
+  }
+
+  .featureTextL{
+    left: 5%;
+    text-align: left;
+    margin: auto;
+  }
+
+  .featureImgL{
+    height: 80%;
+    width: auto;
+    margin: auto;
+    padding-left: 20%
+  }
+
+  .featureImgR{
+    height: 80%;
+    width: auto;
+    margin: auto;
+    left: 5%;
+  }
+
+  .featImgL, .featImgR{
+    display: inline-flex;
+    height: 100%;
+    object-fit: contain !important;
+  }
+
+  .featureTextR{
+    right: 5%;
+    margin:auto;
+    padding-left: 10%
+  }
+
+  .featureTitle{
+    font-family: 'Chakra Petch', sans-serif;
+    color: #ff3b0c;
+  }
+
+  .featureDesc{
+    font-family: 'Montserrat', sans-serif;
+    color: #201f23;
+    text-align: justify;
+  }
+
 }
   /*-------------------End mobile style---------------------------*/
