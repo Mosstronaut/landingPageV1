@@ -286,6 +286,41 @@ body{
     padding: .5%;
   }
 
+  /*-------------------Terms Page---------------------*/
+
+  #termContainer{
+    max-height: 100vh;
+    display: inline-flex;
+  }
+
+  .termImg{
+    position: fixed;
+    left: 50%;
+    height: 85%;
+  }
+
+  .termsImg{
+    height: 130%;
+    object-fit: contain;
+  }
+
+  .termText{
+    z-index: 10;
+    margin-top: 5%;
+    margin-left: 5%;
+    max-height: 100vh;
+  }
+
+  .termText h1, h2, h3, address{
+    color: #ff3b0c;
+  }
+
+  .termText p,ol{
+    color: #fff;
+  }
+
+  /*-------------------End Terms Page---------------------*/
+
   /*---------------End desktop style---------------------------*/
 
   /*-------------------mobile style---------------------------*/
