@@ -304,12 +304,33 @@ body{
     height: 45px;
   }
 
-  #headLogo, #socialNav, #navSpacer{
+  #headLogo, #navSpacer{
     display: none;
   }
 
-  .socNav{
-    display: none;
+  #socialNav{
+    height: 80%;
+    left: 10%;
+    top: 25%;
+  }
+
+  ul.socNav{
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li.socIcon{
+    height: 100%;
+    float: none;
+    margin: 2%;
+  }
+
+  .socImg{
+    height: 100%;
+    object-fit: contain;
+    padding-top: 40%;
   }
 
   #headLogoMin{
@@ -334,6 +355,7 @@ body{
 
   #heroLeft{
       width: 50%;
+      z-index: 10;
       background-color: transparent;
   }
 
